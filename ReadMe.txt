@@ -21,7 +21,12 @@ The order of genres is: ["International", "Pop", "Rock", "Electronic", "Folk", "
  To train network:
  	- Extract FMA_small dataset to Songs/ directory within the Data/ directory, and move all files from their number folders into the Songs/ directory
  	- Run getFiles.py and wait for the preprocessing to complete, progress will be reported along with ETA
- 	- Run trainModel.py, optionally, run tnesorboard as well to monitor training
+  
+  Or
+  
+  - Download and extract Data.zip from 'www.aidancrowther.com/Data.zip' containing already encoded data.
+  
+ 	- Run trainModel.py, optionally, run tensorboard as well to monitor training
 
  To validate network:
  	- Using a single file:
